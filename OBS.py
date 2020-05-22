@@ -23,6 +23,10 @@ def trans(O1, O2, O3):
     return np.transpose(trans)
 
 
+# ------------------------------------------
+# Classes
+# ------------------------------------------
+
 class OBSolve(object):
     def __init__(self, t, decayMatrix):
         self.t = t
